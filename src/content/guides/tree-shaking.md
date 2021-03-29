@@ -169,7 +169,7 @@ T> 注意，所有导入文件都会受到 tree shaking 的影响。这意味着
 
 ## 解释 tree shaking 和 `sideEffects` {#clarifying-tree-shaking-and-sideeffects}
 
-[`sideEffects`](/configuration/optimization/#optimizationsideeffects) 和 [`usedExports`](/configuration/optimization/#optimizationusedexports)（更多被认为是 tree shaking）是两种不同的优化方式。
+[`sideEffects`](/configuration/optimization/#optimizationsideeffects) 和 [`usedExports`](/configuration/optimization/#optimizationusedexports)（更多被认为是 tree shaking）优化是两种不同的东西。
 
 **`sideEffects` 更为有效** 是因为它允许跳过整个模块/文件和整个文件子树。
 
